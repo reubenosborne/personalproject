@@ -2,10 +2,10 @@
   "manifest_version": 2,
   "name": "Personal Project",
   "description": "A chrome extension to practice API's for EDA Personal Project",
-  "version": 1,
+  "version": "1.0.0.0",
   "author": "Reuben Osborne",
   "browser_action": {
-    "default_icon": "tab-icon.png",
+    "default_icon": "tab-icon.svg",
     "default_title": "Relax",
     "default_popup": "popup.html"
   },
