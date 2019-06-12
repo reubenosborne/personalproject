@@ -6,11 +6,15 @@
   "author": "Reuben Osborne",
   "browser_action": {
     "default_icon": "tab-icon.svg",
-    "default_title": "Relax",
+    "default_title": "A+",
     "default_popup": "popup.html"
   },
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
-  "permissions": ["activeTab"]
+  "permissions": ["activeTab"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
 }
