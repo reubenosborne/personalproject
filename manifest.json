@@ -3,5 +3,13 @@
   "name": "Personal Project",
   "description": "A chrome extension to practice API's for EDA Personal Project",
   "version": 1,
-  "author": "Reuben Osborne"
+  "author": "Reuben Osborne",
+  "browser_action": {
+    "default_icon": "tab-icon.png",
+    "default_title": "Relax"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["activeTab"]
 }
