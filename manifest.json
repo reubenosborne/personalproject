@@ -6,7 +6,8 @@
   "author": "Reuben Osborne",
   "browser_action": {
     "default_icon": "tab-icon.png",
-    "default_title": "Relax"
+    "default_title": "Relax",
+    "default_popup": "popup.html"
   },
   "chrome_url_overrides": {
     "newtab": "newtab.html"
