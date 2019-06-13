@@ -23,9 +23,5 @@
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
-  "permissions": ["activeTab"],
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  }
+  "permissions": ["activeTab"]
 }

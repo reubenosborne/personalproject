@@ -1,0 +1,23 @@
+{
+  "name": "personalproject",
+  "version": "1.0.0",
+  "description": "Personal Project",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reubenosborne/personalproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reubenosborne/personalproject/issues"
+  },
+  "homepage": "https://github.com/reubenosborne/personalproject#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
