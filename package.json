@@ -4,6 +4,7 @@
   "description": "Personal Project",
   "main": "script.js",
   "scripts": {
+    "dev": "nodemon scipt.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/reubenosborne/personalproject#readme",
   "dependencies": {
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
   }
 }

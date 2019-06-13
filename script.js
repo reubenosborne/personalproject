@@ -9,10 +9,18 @@ request(`https://api.unsplash.com/${searchParams}?query=${searchQuery}&orientati
 
   if (error) console.log(error)
 
-  console.log(response)
-  console.log(response.statusCode)
-  console.log(body)
+  function setBackground(body) {
+    let background = body.url.full
+    document.body.style.backgroundImage = `url(${background})`
+  }
 
-    fs.writeFile('result.json')
+  window.addEventListener('DOMContentLoaded', setBackground(body), false);
+
+
+
+  fs.writeFile('result.json', body, (err) => {
+    if (err) throw err
+    console.log("Result.json saved!")
+  })
 
 });

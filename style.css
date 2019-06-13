@@ -1,0 +1,5 @@
+html {
+  background: no-repeat center center fixed;
+  background-image: url('');
+  background-size: cover;
+}
