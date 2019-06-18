@@ -4,4 +4,5 @@ body {
   height: 100%;
   background: no-repeat center center fixed;
   background-size: cover;
+  transition: 1s ease-in-out;
 }
