@@ -11,6 +11,7 @@ fetch(
   .then(response => response.json())
   .then(json => {
 
+    console.log(json)
 
     function initialBackground() {
       let background = json.results[count].urls.full;
@@ -27,7 +28,7 @@ fetch(
       } else {
         count++
       }
-    }, 5000)
+    }, 2000)
 
   })
 
