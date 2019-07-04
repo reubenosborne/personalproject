@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background: #000 no-repeat center center fixed;
+  background: rgb(23, 20, 20) no-repeat center center fixed;
   background-size: cover;
   transition: 1s ease-in-out;
 }
